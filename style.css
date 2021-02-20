@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info div{
+    padding: 3rem;
+    background: red;
+    color: white;
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
